@@ -1,0 +1,59 @@
+.recommended-section {
+  padding: 24px 0;
+}
+
+.section-header {
+  padding: 0 20px;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.5px;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #a0a0a0;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-family: inherit;
+}
+
+.tab.active {
+  color: #ffffff;
+}
+
+.tab:hover {
+  color: #ffffff;
+}
+
+.cards-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 0 20px 16px 20px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

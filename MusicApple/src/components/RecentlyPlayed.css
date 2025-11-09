@@ -1,0 +1,25 @@
+.recently-played-section {
+  padding: 24px 0 120px 0;
+}
+
+.section-header-with-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 16px;
+}
+
+.section-header-with-arrow .section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.arrow-icon {
+  color: #a0a0a0;
+  width: 20px;
+  height: 20px;
+}
